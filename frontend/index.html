@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor Clinic</title>
+    <link rel="icon" href="../design/logo.png" type="image/x-icon" style="width: 48px; height: 48px;"> <!--Favicon-->
+
+    <!--CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="./css/styles.css"> <!--Custom CSS-->
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" /> <!--HugeIcons-->
+</head>
+<body>
+    <header class="px-2 px-sm-3 px-lg-5 position-fixed top-0 start-0 w-100 z-3 mb-5">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="logo inline'block">
+                        <img src="../design/logo.png" alt="motor clinic logo">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span>
+                        <img src="../design/menu icon.png" alt="">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-btn-selected nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-btn nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-btn nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-success" type="submit">Contact Us</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-5 px-2 px-sm-3 px-lg-5">
+        <!--Hero Section-->
+        <section class="hero">
+            <div class="container col-xxl-8 "> 
+                <div class="hero-top row flex-lg align-items-center justify-content-md-between py-5"> 
+                    <div class="text col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Trusted <span>Hands</span> For Every Drive</h1>
+                        <p class="lead">From routine oil changes to complex suspension repairs, we bring decades of local expertise to every car we touch. Our mission is simple: to keep your vehicle safe, reliable, and performing at its best — so you can drive with confidence every day</p> 
+                        <div class="btn-container d-grid gap-2 d-md-flex justify-content-md-start mt-4">
+                                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                                    Book a Service
+                                    <span><i class="hgi hgi-stroke hgi-arrow-right-02"></i></span>
+                                 </button>
+                                  <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>  -->
+                        </div> 
+                    </div>
+
+                    <!--Hero Image-->
+                    <div class="img-container col-12 col-sm-12 col-lg-4 mt-5"> 
+                        <img src="../design/hero img 1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
+                    </div> 
+                </div> 
+
+                <div class="tagline-metric flex flex-column">
+                    <p class="mb-2">
+                        20+ Years of Hands-On Experience
+                    </p>
+                    <div class="details d-flex flex-lg-row flex-column justify-content-lg-between w-100">
+                        <div id="1" class="item d-flex flex-row gap-2 align-items-center col-12 col-lg-4">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <i class="hgi hgi-stroke hgi-car-01"></i>
+                            </div>
+                            <h3>5,000+ Cars Serviced</h3>
+                        </div>
+
+                        <!--Divider-->
+                        <div class="divider-1 col-12 d-lg-none">
+                            <!--Horizontal divider for small & medium screens-->
+                            <hr class="my-3">
+                        </div>
+                        <div class="divider-2 col-lg-2 d-none ">
+                            <!--Vertical divider for large screen-->
+                            <div class="vr"></div>
+                        </div>
+
+                        <div id="2" class="item d-flex flex-row gap-2 align-items-center col-12 col-lg-3">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <i class="hgi hgi-stroke hgi-mentoring"></i>
+                            </div>
+                            <h3>Expert Team</h3>
+                        </div>
+                        
+                        <!--Divider-->
+                        <div class="divider-1 col-12 d-lg-none">
+                            <!--Horizontal divider for small & medium screens-->
+                            <hr class="my-3">
+                        </div>
+                        <div class="divider-2 d-none d-lg-flex align-items-center ">
+                            <!--Vertical divider for large screen-->
+                            <div class="vr"></div>
+                        </div>
+
+                        <div id="3" class="item d-flex flex-row gap-2 align-items-center col-12 col-lg-4">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <i class="hgi hgi-stroke hgi-zap"></i>
+                            </div>
+                            <h3>Guaranteed Solution</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--JS Link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> <!--Bootstrap JS-->
+    <script src="./js/index.js"></script>
+</body>
+</html>

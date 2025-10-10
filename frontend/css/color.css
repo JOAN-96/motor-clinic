@@ -1,0 +1,79 @@
+:root {
+    /* Deep Navy */
+    --deep-navy-50: #e8eaec;
+    --deep-navy-100: #b8bdc4;
+    --deep-navy-200: #969da8;
+    --deep-navy-300: #667080;
+    --deep-navy-400: #495567;
+    --deep-navy-500: #1b2a41;
+    --deep-navy-600: #19263b;
+    --deep-navy-700: #131e2e;
+    --deep-navy-800: #0f1724;
+    --deep-navy-900: #0b121b;
+
+    /* Burnt Orange */
+    --burnt-orange-50: #fbeee6;
+    --burnt-orange-100: #f1cab0;
+    --burnt-orange-200: #ebb08a;
+    --burnt-orange-300: #e28c54;
+    --burnt-orange-400: #dc7633;
+    --burnt-orange-500: #d35400;
+    --burnt-orange-600: #c04c00;
+    --burnt-orange-700: #963c00;
+    --burnt-orange-800: #742e00;
+    --burnt-orange-900: #592300;
+
+    /* Warm Gray */
+    --warm-gray-50: #fefefe;
+    --warm-gray-100: #fcfcfc;
+    --warm-gray-200: #fafafa;
+    --warm-gray-300: #f8f8f8;
+    --warm-gray-400: #f6f6f6;
+    --warm-gray-500: #f4f4f4;
+    --warm-gray-600: #dedede;
+    --warm-gray-700: #adadad;
+    --warm-gray-800: #868686;
+    --warm-gray-900: #666666;
+
+    /* Metallic Silver */
+    --metallic-silver-50: #f8f9f9;
+    --metallic-silver-100: #ebecee;
+    --metallic-silver-200: #e1e3e5;
+    --metallic-silver-300: #d3d7d9;
+    --metallic-silver-400: #cacfd2;
+    --metallic-silver-500: #bdc3c7;
+    --metallic-silver-600: #acb1b5;
+    --metallic-silver-700: #868a8d;
+    --metallic-silver-800: #686b6d;
+    --metallic-silver-900: #4f5254;
+
+    /* Mustard Yellow */
+    --mustard-yellow-50: #fef9e7;
+    --mustard-yellow-100: #fbedb5;
+    --mustard-yellow-200: #f9e491;
+    --mustard-yellow-300: #f6d75e;
+    --mustard-yellow-400: #f4d03f;
+    --mustard-yellow-500: #f1c40f;
+    --mustard-yellow-600: #dbb20e;
+    --mustard-yellow-700: #ab8b0b;
+    --mustard-yellow-800: #856c08;
+    --mustard-yellow-900: #655206;
+
+
+    /* TOKEN */
+
+    /* Background*/
+    --bg: var(--warm-gray-50);
+
+    /* Text */
+    --text-header: var(--deep-navy-900);
+    --text-subheader: var(--metallic-silver-900);
+    --text-body: var(--metallic-silver-500);
+
+    /* Button */
+    --btn: var(--mustard-yellow-500);
+    --btn-hover: var(--mustard-yellow-100);
+    --btn-selected: var(--mustard-yellow-900);
+    --btn-text: var(--warm-gray-500);
+    --btn-hover-text: var(--warm-gray-900);
+}

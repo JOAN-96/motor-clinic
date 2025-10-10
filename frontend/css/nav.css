@@ -1,0 +1,52 @@
+@import url(./color.css);
+@import url(./font.css);
+
+:root {
+    .nav-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 8px 20px;
+        border: none;
+        color: var(--metallic-silver-300);
+        cursor: pointer;
+        height: 48px;
+
+        /* Transition */
+        transition: ease-out 0.5s;
+
+        /* Button Text */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: calc(16 / 16 * 1rem); /* 16px */
+        line-height: 1.2;
+        letter-spacing: calc(0.5 / 16 * 1rem); /* 0.5px */
+        text-decoration: none;
+    }
+
+    .nav-btn:hover {
+        color: var(--btn-hover);
+        border-bottom: 2px solid var(--btn-hover);
+    }
+
+    .nav-btn-selected {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 8px 20px;
+        border: none;
+        color: var(--btn-selected);
+        cursor: pointer;
+        height: 48px;
+        
+        /* Button Text */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: calc(16 / 16 * 1rem); /* 16px */
+        line-height: 1.2;
+        letter-spacing: calc(0.5 / 16 * 1rem); /* 0.5px */
+        text-decoration: none;
+    }
+}
