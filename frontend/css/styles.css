@@ -56,7 +56,7 @@ body {
             margin-top: 96px !important;
         }
     }
-    section .container-fluid .hero-top .text h1 {
+    section .container .hero-top .text h1 {
         color: var(--text-header);
 
         span {
