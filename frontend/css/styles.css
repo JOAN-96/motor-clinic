@@ -117,3 +117,32 @@ body {
         }  
     }
 }
+
+@layer ad {
+    .ad {
+        background-image: url(/design/ad\ img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 96px !important; 
+        border-radius: 4px;
+        padding-block: 56px !important;
+    }
+
+    @media (min-width: 1200px) {
+        .ad {
+            margin-top: 128px;
+        }
+    }
+
+    .ad .ad-text {
+        max-width: 315px;
+    }
+
+    .ad .ad-text .text h2 {
+        color: var(--btn-text) !important;
+    }
+
+    .ad .ad-text .text p {
+        color: var(--text-body);
+    }
+}
